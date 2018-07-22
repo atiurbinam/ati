@@ -1,0 +1,49 @@
+body {
+	background-color: #ADF6ED;
+}
+
+label {
+	color: grey;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.clasificacion {
+	direction: rtl; /* right to left */
+	unicode-bidi: bidi-override; /* bidi de bidireccional */
+}
+
+
+.lista-estrellas {
+	display: inline-block;
+}
+
+label:hover {
+	color: #3796F0;
+}
+
+label:hover ~ label {
+	color: #3796F0;
+}
+
+input.bpuntua[checked] + label{
+	color: #3796F0;
+}
+
+input.bpuntua[checked] + label ~ label{
+	color: #3796F0;
+}
+
+li {
+	list-style: none;
+}
+
+label {
+	font-size: 1.8rem !important;
+}
+
+li>.margenDerecha {
+	margin-rigth: 20px;
+}
